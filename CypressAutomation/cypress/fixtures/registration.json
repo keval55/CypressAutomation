@@ -1,0 +1,29 @@
+[{
+  "testcasename": "Check without entering captcha",
+  "name": "keval",
+  "surname": "kava",
+  "email": "kevalkava3@gmail.com",
+  "url":"http://dev.harmonytoc.com/Account/Login"
+},
+{
+  "testcasename": "check with invalid email id",
+  "name": "tapan",
+  "surname": "khimani",
+  "email": "keval.k",
+  "url":"http://dev.harmonytoc.com/Account/Login"
+},
+{
+  "testcasename": "check without enter first name",
+  "name": " ",
+  "surname": "khimani",
+  "email": "keval.k@syopmail.com",
+  "url":"http://dev.harmonytoc.com/Account/Login"
+},
+{
+  "testcasename": "Check without enter last name",
+  "name": "keval",
+  "surname": " ",
+  "email": "kevalkava3@gmail.com",
+  "url":"http://dev.harmonytoc.com/Account/Login"
+}]
+

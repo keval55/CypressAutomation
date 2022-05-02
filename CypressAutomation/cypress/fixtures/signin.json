@@ -1,0 +1,45 @@
+[{
+    "testcasename": "Valid signin data",
+    "url":"http://dev.harmonytoc.com/Account/Login",
+    "email": "pavan.a@simformsolutions.com",
+    "password": "1"
+    
+},
+
+{   
+    "testcasename": "Invalid Email and Password",
+    "url":"http://dev.harmonytoc.com/Account/Login",
+    "email": "keval.j@yopmail.com",
+    "password": "Test@123"
+},
+{
+    "testcasename": "Invalid Email",
+    "url":"http://dev.harmonytoc.com/Account/Login",
+    "email": "keval.s",
+    "password": "E568144A87"
+},
+{   
+    "testcasename": "Invalid Password",
+    "url":"http://dev.harmonytoc.com/Account/Login",
+    "email": "keval.s@yopmail.com",
+    "password": "Test@123"
+},
+{   
+    "testcasename": "Keep password and email field Empty",
+    "url":"http://dev.harmonytoc.com/Account/Login",
+    "email": " ",
+    "password": " "
+},
+{   
+    "testcasename": "Keep password field Empty",
+    "url":"http://dev.harmonytoc.com/Account/Login",
+    "email": "keval.s@yopmail.com",
+    "password": " "
+},
+{   
+    "testcasename": "Keep email field Empty",
+    "url":"http://dev.harmonytoc.com/Account/Login",
+    "email": " ",
+    "password": "test123"
+}]
+  
